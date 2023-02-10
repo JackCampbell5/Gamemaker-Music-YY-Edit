@@ -2,6 +2,11 @@ import os
 
 
 def add_to_array(array_name, what):
+    """
+    Adds to  the end of an array
+
+    :params int array_name: Test
+    """
     if array_name[0] == -1:
         array_name[0] = what
     else:
@@ -33,10 +38,10 @@ for path_name in sub_folders:
             file_name = os.path.join(folder_path, file_name_all)
 
             # Open the file
-            with open(file_name, "r") as file_name:
+            with open(file_name, "r") as file_read:
 
                 # Get all the file of the code
-                file_lines = file_name.readlines()
+                file_lines = file_read.readlines()
                 # Output Array for correct line
                 output_array = [[-1] for x in range(len(search_for))]
 
@@ -69,11 +74,10 @@ for path_name in sub_folders:
                         file_lines[output_array[c][d]] = line
             if empty:
                 break
+            print(file_name)
             with open(file_name, "w") as output_file:
                 for output_line in file_lines:
-                    output_file.write(output_line+"\n")
-                print(output_file.readlines())
-
+                    output_file.write(output_line + "\n")
 
             jack = True
     if jack:
