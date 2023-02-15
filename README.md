@@ -8,5 +8,6 @@
 ### To Do List
 + Finish read me
 + Make the code be able to output
-+ Make documentation
++ Make documentation for each method
++ Make into class
 + Add type hinting
