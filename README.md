@@ -1,14 +1,26 @@
-# Gamemaker Music YY Edit
+# Directory Txt Edit
 
+## Overall
+This is a way of editing a directory of folders each containing txt file and edit each txt to your liking 
+
+## How it works:
+### How to use
++ Go to main.py and change all the values under user input parameters to your liking
++ Run the file
+
+### What each parameter means:
++ directory_input = The directory of the folder that contains all the sub folders containing directory
+
+### How edit text works
++ There are type comments and what each function does is layed out in it 
 
 ## Dependency's:
 + Python 3.10
 + Os
-+ Just the defaults
 
 ### To Do List
 + Finish read me
-+ Make the code be able to output
-+ Make documentation for each method
 + Make into class
-+ Add type hinting
+
+## My use:
++
