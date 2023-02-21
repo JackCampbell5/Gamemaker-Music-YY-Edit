@@ -21,6 +21,7 @@ This is a way of editing a directory of folders each containing txt file and edi
 ### To Do List
 + Finish read me
 + Make into class
++ Remove block that makes it only work for two files
 
 ## My use:
 +

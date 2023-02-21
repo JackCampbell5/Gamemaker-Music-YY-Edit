@@ -61,8 +61,8 @@ class edit_text:
             self.jack += 1
             # Increases self.jack so not too many
             self.check_folder(folder_name=folder_name)
-            if self.jack >= 2:
-                return
+            # if self.jack >= 1:
+            #     return
 
     def check_folder(self, folder_name):
         """ This goes through the folder finds the one that end
@@ -159,6 +159,7 @@ class edit_text:
                 line = list(line)
                 for e in range(len(line)):
                     try:
+                        print(int(line[e])) # NEED this print statement
                         line_output = add_to_array(line_output, e)
                     except ValueError:
                         if line[e] == self.remove_character:

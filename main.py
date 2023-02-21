@@ -3,9 +3,9 @@ from edit_text import edit_text
 
 # Edit this code below and run
 # User Input Parameters
-directory_input = r"C:\Users\jackp\Documents\Game Design\SoundProject\yy Editing\sounds"
-search_for_input = ["type", "bitRate"]
-replace_array_input = [1, 200.0]
+directory_input = r"C:\Users\jackp\Documents\Game Design\SoundProject\Gamemaker\Voice Authority\sounds"
+search_for_input = ["type"]
+replace_array_input = [1]
 remove_character_input = "."
 extension_input = "yy"
 
