@@ -84,7 +84,7 @@ class edit_text:
                 if change_file_output == 1:
                     print(file_name, " has been correctly outputed")
                 elif change_file_output == 0:
-                    print(file_name," is blank and could not be edited")
+                    print(file_name, " is blank and could not be edited")
                 else:
                     print("There was an error encoding ", file_name)
 
@@ -159,7 +159,7 @@ class edit_text:
                 line = list(line)
                 for e in range(len(line)):
                     try:
-                        print(int(line[e])) # NEED this print statement
+                        test = int(line[e])  # NEED this statement for try: except
                         line_output = add_to_array(line_output, e)
                     except ValueError:
                         if line[e] == self.remove_character:
@@ -191,4 +191,3 @@ class edit_text:
                     continue
                 output_file.write(output_line)
             return 1
-
